@@ -253,6 +253,11 @@ h3{
         margin-left: 5%;
     }
 
+     .qualifications,
+    .my-projects {
+        margin: 0 auto;
+    }
+
  
     .hero {
         display: flex;
