@@ -212,12 +212,13 @@ h3{
     .experience,
     .education {
         text-align: center;
+        margin: 0 auto;
     }
 
     .experience hr,
     .education hr {
         width: 80%;
-        margin: 10px auto;
+        
     }
 }
 
