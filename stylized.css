@@ -1,224 +1,192 @@
 
-html, body{
-    margin:0;
-    padding:0;
-    
+html, body {
+    margin: 0;
+    padding: 0;
 }
-.end-section{
+
+.end-section {
     border: #333 10px dotted;
-    width:5%;
-    margin:70px auto;
-    border-bottom:none;
-    
-    
-    
-}
-.hero{
-    
-     
-     padding:20px;
-     display:flex;
-     
-     align-items:center;
-     background-color: blanchedalmond;
-    }
-.hero img{
-
-    position:relative;
-    left:350px;
-    top:30px;
-    
-    
+    width: 5%;
+    margin: 70px auto;
+    border-bottom: none;
 }
 
-.hero .text{
-    position:relative;
-    left:420px;
-     bottom:5px;
-    
-     
+.hero {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
 }
 
-.hero h1{
-    
-    
-    position:relative;
-    top:10px;
-
+.hero img {
+    position: relative;
+    left: 350px;
+    top: 30px;
 }
-p{
+
+.hero .text {
+    position: relative;
+    left: 420px;
+    bottom: 5px;
+}
+
+.hero h1 {
+    position: relative;
+    top: 10px;
+}
+
+p {
     font-family: Lato;
     color: gray;
-    filter:brightness(0.5);
+    filter: brightness(0.5);
 }
-h1,h2,h3{
-    font-family:Nunito;
-    
-}
-h1{
-    font-size:2rem;
 
+h1, h2, h3 {
+    font-family: Nunito;
 }
-h2{
-    font-size:1.8rem;
+
+h1 {
+    font-size: 2rem;
 }
-h3{
-    font-size:1.2rem;
+
+h2 {
+    font-size: 1.8rem;
 }
-.contact-button{
-    position:relative;
-    top:20px;
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.contact-button {
+    position: relative;
+    top: 20px;
     font-family: Lato;
-    padding:10px 20px;
+    padding: 10px 20px;
     text-align: center;
-    
-    
-    font-size:16px;
+    font-size: 16px;
     border: 1px solid #555;
-    border-radius:10px;
+    border-radius: 10px;
     text-decoration: none;
-    color:black;
-    
-    
-    
+    color: black;
 }
-.contact-button:hover{
+
+.contact-button:hover {
     background-color: #E9967A;
 }
 
-.about_me{
-
-    text-align:center;
-    
-    
+.about_me {
+    text-align: center;
 }
 
-.about_me img{
-    position:relative;
-    top:90px;
-    border-radius:50%;
+.about_me img {
+    position: relative;
+    top: 90px;
+    border-radius: 50%;
 }
-.about_me h2{
-    text-align:center;
-    
-    margin-top:120px;
-    
+
+.about_me h2 {
+    text-align: center;
+    margin-top: 120px;
 }
-.about_me p{
-    display:block;
-    line-height:1.5;
+
+.about_me p {
+    display: block;
+    line-height: 1.5;
     width: 25%;
-    margin:auto;
-    
-    
-    
-}
-.resume{
-    text-align:center;
+    margin: auto;
 }
 
+.resume {
+    text-align: center;
+}
 
-.qualifications{
-    display:grid;
+.qualifications {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr; 
-    justify-content:center;
-    align-items:center;
-    margin:100px auto 0 auto;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0 auto;
     width: 800px;
-    
-  grid-gap:30px;
-   
-    
+    grid-gap: 30px;
 }
 
-.education, .experience{
-    align-self:start;
-    display:block;
-}
-.projects h2{
-    text-align:center;
+.education, .experience {
+    align-self: start;
+    display: block;
 }
 
-.my-projects{
-    display:grid;
+.projects h2 {
+    text-align: center;
+}
+
+.my-projects {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr; 
-    justify-content:center;
-    align-items:center;
-    margin:100px auto 0 auto;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0 auto;
     width: 80%;
-    margin-left:200px;
-    
-    
-    
-  grid-gap:30px;
-   
-    
+    margin-left: 200px;
+    grid-gap: 30px;
 }
-.my-projects img{
-    width:100%;
-    height:auto;
+
+.my-projects img {
+    width: 100%;
+    height: auto;
     transition: transform 0.3s ease;
 }
 
-.my-projects img:hover{
-    transform:scale(1.1);
-}
-.footer{
-    margin-top:30px;
-    padding:20px 20px;
-    background-color:blanchedalmond;
-    text-align:center;
-}
-.footerlink{
-    text-decoration:none;
-    font-family:Lato;
-    color:#333;
-    margin:0 5px;
-}
-.footerlink:hover{
-    color:#E9967A;
-}
-.copyright{
-    color:#555;
-    font-size:0.75rem;
-    
+.my-projects img:hover {
+    transform: scale(1.1);
 }
 
+.footer {
+    margin-top: 30px;
+    padding: 20px 20px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
 
-    
+.footerlink {
+    text-decoration: none;
+    font-family: Lato;
+    color: #333;
+    margin: 0 5px;
+}
 
+.footerlink:hover {
+    color: #E9967A;
+}
 
+.copyright {
+    color: #555;
+    font-size: 0.75rem;
+}
 
+/* Media Queries for Responsive Design */
 @media only screen and (max-width: 320px) {
-    
     .contact-button {
         font-size: 14px;
-        padding: 8px 16px; 
-        
+        padding: 8px 16px;
     }
+}
 
-  }
-
-  @media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 600px) {
     .qualifications {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .experience,
-    .education {
+    .experience, .education {
         text-align: center;
         margin: 0 auto;
     }
 
-    .experience hr,
-    .education hr {
+    .experience hr, .education hr {
         width: 80%;
-        
     }
 }
 
@@ -233,7 +201,7 @@ h3{
         position: relative;
         left: 0;
         padding: 20px;
-        text-align: center; 
+        text-align: center;
     }
 
     .contact-button {
@@ -248,18 +216,11 @@ h3{
         width: 80%;
     }
 
-    .qualifications,
-    .my-projects {
+    .qualifications, .my-projects {
         width: 90%;
         margin-left: 5%;
     }
 
-     .qualifications,
-    .my-projects {
-        margin: 0 auto;
-    }
-
- 
     .hero {
         display: flex;
         flex-direction: column;
@@ -267,7 +228,6 @@ h3{
         text-align: center;
     }
 }
-
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .hero img {
@@ -280,12 +240,12 @@ h3{
         position: relative;
         left: 0;
         padding: 20px;
-        text-align: center; 
+        text-align: center;
     }
 
     .contact-button {
         margin-top: 20px;
-        padding:0;
+        padding: 0;
     }
 
     .about_me img {
@@ -296,27 +256,22 @@ h3{
         width: 80%;
     }
 
-    .qualifications,
-    .my-projects {
+    .qualifications, .my-projects {
         width: 90%;
         margin-left: 5%;
     }
 
-   
-    .experience,
-    .education {
+    .experience, .education {
         width: 80%;
-        margin: 0 auto; 
+        margin: 0 auto;
         text-align: center;
     }
 
-    .experience hr,
-    .education hr {
-        width: 80%; 
-        margin: 0 auto; 
+    .experience hr, .education hr {
+        width: 80%;
+        margin: 0 auto;
     }
 }
-
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .hero img {
@@ -340,18 +295,16 @@ h3{
         width: 40%;
     }
 
-    .qualifications,
-    .my-projects {
+    .qualifications, .my-projects {
         width: 80%;
         margin-left: 10%;
     }
-    .experience hr,
-    .education hr {
-      width: 80%; 
-      margin: 10px auto;
+
+    .experience hr, .education hr {
+        width: 80%;
+        margin: 10px auto;
     }
 }
-
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     .hero img {
@@ -375,42 +328,41 @@ h3{
         width: 30%;
     }
 
-    .qualifications,
-    .my-projects {
+    .qualifications, .my-projects {
         width: 70%;
         margin-left: 15%;
     }
 }
 
-
-
 @media only screen and (min-width: 1201px) {
     .hero img {
-        left: 350px; 
+        left: 350px;
         max-width: 100%;
     }
 
     .hero .text {
-        left: 420px; 
+        left: 420px;
     }
 
     .contact-button {
-        margin-top: 30px; 
+        margin-top: 30px;
     }
 
     .about_me img {
-        top: 120px; 
+        top: 120px;
     }
 
     .about_me p {
-        width: 20%; 
+        width: 20%;
     }
 
-    .qualifications,
-    .my-projects {
-        width: 60%; 
+    .qualifications, .my-projects {
+        width: 60%;
         margin-left: 20%;
     }
 }
+
+
+
 
 
