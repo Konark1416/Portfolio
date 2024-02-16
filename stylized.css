@@ -12,20 +12,22 @@ html, body {
 }
 
 .hero {
-    padding: 20px;
-    display: grid;
-    align-items: center;
-    background-color: blanchedalmond;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:20px;
+padding: 20px;
+display: flex;
+align-items: center;
+background-color: blanchedalmond;
 }
 
 .hero img {
-    max-width:100%;
+position: relative;
+left: 350px;
+top: 30px;
 }
 
 .hero .text {
-    text-align:center;
+position: relative;
+left: 420px;
+bottom: 5px;
 }
 
 .hero h1 {
