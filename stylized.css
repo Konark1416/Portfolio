@@ -1,4 +1,4 @@
-
+/* General Styles */
 html, body {
     margin: 0;
     padding: 0;
@@ -275,12 +275,12 @@ h3 {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .hero img {
-        left: 20px;
+        left: 30px;
         max-width: 100%;
     }
 
     .hero .text {
-        left: 30px;
+        left: 50px;
     }
 
     .contact-button {
@@ -333,6 +333,9 @@ h3 {
         margin-left: 15%;
     }
 }
+
+
+
 
 @media only screen and (min-width: 1201px) {
     .hero img {
