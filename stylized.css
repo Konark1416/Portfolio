@@ -236,7 +236,7 @@ h3 {
     
           }
     .hero img {
-        left: 50%;
+        left: 40%;
         transform: translateX(-50%);
         max-width: 100%;
     }
