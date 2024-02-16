@@ -230,6 +230,11 @@ h3 {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .hero{
+            width:100%;
+    
+          }
     .hero img {
         left: 50%;
         transform: translateX(-50%);
