@@ -308,12 +308,12 @@ h3 {
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     .hero img {
-        left: 50px;
+        left: 80px;
         max-width: 100%;
     }
 
     .hero .text {
-        left: 80px;
+        left: 50px;
     }
 
     .contact-button {
